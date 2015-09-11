@@ -80,16 +80,9 @@ class PlayerManager: NSObject {
         self.timer = nil
         
     }
-    //观察者:观察播放的属性(未知,可以播放,播放失败)
-     func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-//        super.observeValueForKeyPath(keyPath, ofObject: object, change: change, context: context)
-        //播放音乐
-        self.playMusic()
-    }
-//
 
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [NSObject : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        self.playMusic()
+     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+         self.playMusic()
     }
     //一直监听音乐播放
     func monitorPlayMusic() ->Void
