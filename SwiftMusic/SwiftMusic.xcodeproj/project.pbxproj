@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7105B9A41BA2C35F001EBEFB /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105B9A31BA2C35F001EBEFB /* TestView.m */; settings = {ASSET_TAGS = (); }; };
 		715254461B96ACD100C20BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715254441B96ACD100C20BAE /* Main.storyboard */; };
 		715254481B96ACD100C20BAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715254471B96ACD100C20BAE /* Images.xcassets */; };
 		7152544B1B96ACD100C20BAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715254491B96ACD100C20BAE /* LaunchScreen.xib */; };
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7105B9A21BA2C35F001EBEFB /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		7105B9A31BA2C35F001EBEFB /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		7152543B1B96ACD100C20BAE /* SwiftMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7152543F1B96ACD100C20BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		715254451B96ACD100C20BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -234,6 +237,8 @@
 		715254651B96ACE600C20BAE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7105B9A21BA2C35F001EBEFB /* TestView.h */,
+				7105B9A31BA2C35F001EBEFB /* TestView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -486,6 +491,7 @@
 				71D04B741B9982B5003BDFA0 /* UIView+WebCacheOperation.m in Sources */,
 				71D04B6E1B9982B5003BDFA0 /* UIButton+WebCache.m in Sources */,
 				71D04B701B9982B5003BDFA0 /* UIImage+MultiFormat.m in Sources */,
+				7105B9A41BA2C35F001EBEFB /* TestView.m in Sources */,
 				715254761B96B27E00C20BAE /* MusicModel.swift in Sources */,
 				716ADF3D1B99A10C002A1E0C /* MBProgressHUD.m in Sources */,
 				71D04B6B1B9982B5003BDFA0 /* SDWebImageDownloaderOperation.m in Sources */,
