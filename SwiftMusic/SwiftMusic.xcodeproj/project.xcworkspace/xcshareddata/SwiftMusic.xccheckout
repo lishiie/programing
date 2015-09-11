@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3010B47C-4AEF-4CB1-9B63-B6E23FA6F2BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftMusic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BA41AC7E8E916430BAF803256D0203E6250B1426</key>
+		<string>https://github.com/lishiie/programing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftMusic/SwiftMusic.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BA41AC7E8E916430BAF803256D0203E6250B1426</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lishiie/programing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BA41AC7E8E916430BAF803256D0203E6250B1426</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA41AC7E8E916430BAF803256D0203E6250B1426</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gitDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

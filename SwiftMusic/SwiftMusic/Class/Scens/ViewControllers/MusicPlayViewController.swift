@@ -49,8 +49,9 @@ class MusicPlayViewController: UIViewController,playerManagerDelegate,UITableVie
         self.musicImage.layoutIfNeeded()
         self.musicImage.clipsToBounds = true
         self.musicImage.layer.cornerRadius = self.musicImage.frame.size.height / 2
+
         
-        
+            print ("sasasa")
         
     }
     
