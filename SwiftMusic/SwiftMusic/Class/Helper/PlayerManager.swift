@@ -40,7 +40,7 @@ class PlayerManager: NSObject {
     override init() {
         super.init()
         //初始化AVplayer
-        self.player = AVPlayer.init()
+        self.player = AVPlayer()
         //监听播放结束
         NSNotificationCenter.defaultCenter().addObserver(self, selector:"playMusicToEnd", name: AVPlayerItemDidPlayToEndTimeNotification, object: nil)
     }
@@ -80,12 +80,17 @@ class PlayerManager: NSObject {
         self.timer = nil
         
     }
-    //观察者:观察播放的属性(未知,可以播放,播放失败)
-    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
-        //播放音乐
+//    //观察者:观察播放的属性(未知,可以播放,播放失败)
+//     func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+////        super.observeValueForKeyPath(keyPath, ofObject: object, change: change, context: context)
+//        //播放音乐
+//        self.playMusic()
+//    }
+//   
+
+    override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [NSObject : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         self.playMusic()
     }
-   
     //一直监听音乐播放
     func monitorPlayMusic() ->Void
     {
