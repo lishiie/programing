@@ -90,6 +90,8 @@ class PlayerManager: NSObject {
 
     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [NSObject : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         self.playMusic()
+     override func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
+         self.playMusic()
     }
     //一直监听音乐播放
     func monitorPlayMusic() ->Void
